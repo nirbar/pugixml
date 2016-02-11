@@ -1,6 +1,7 @@
 project(pugixml)
 
 cmake_minimum_required(VERSION 2.6)
+SET( CMAKE_POSITION_INDEPENDENT_CODE True)
 IF (MSVC)
 
 	option(STATIC_CRT "Use static CRT libraries" ON)
